@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+:root {
+  --font-base: "Montserrat", sans-serif;
+  --font-alt: "Fraunces", sans-serif;
+
+  --primary-color: hsl(158, 36%, 37%);
+  --secondary-color: hsl(30, 38%, 92%);
+  --darkblue-color: hsl(212, 21%, 14%);
+  --grayishblue-color: hsl(228, 12%, 48%);
+  --white-color: #ffffff;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: var(--font-base);
+}
